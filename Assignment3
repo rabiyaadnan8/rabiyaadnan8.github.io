@@ -1,0 +1,104 @@
+#Title1 
+{
+    background-color: rosybrown;
+    color: black;
+    padding: 40px;
+    text-align: left;
+} 
+
+#EduTitle
+{
+	width:320px;
+	height:50px;
+	
+	float:center;
+	margin-top:25px;
+	margin-left:600px;
+}
+
+#EduBody
+{
+	width:auto;
+	height:300px;
+	background-color: cornsilk;
+}
+
+.smallbox
+{
+	width:435px;
+	height:50px;
+	float:left;	
+	border:2px solid peachpuff;
+	background-color: cornsilk;
+}
+
+.smallbox h2
+{
+	text-align:center;	
+}
+
+.bigbox
+{
+	border:2px solid peachpuff;
+	width:435px;
+	float:left;
+	height:190px;
+	background-color: cornsilk;
+}
+
+#IntTitle
+{
+	text-align:center;
+	padding-top:230px;
+}
+
+#whole
+{
+	background-color: cornsilk;
+}
+
+#whole2
+{
+	background-color: cornsilk;
+}
+
+#x ul li
+{
+	padding-top:17px;	
+}
+
+.structure
+{
+	height:290px;
+	width:435px;
+	
+	float:left;
+	border:2px solid peachpuff;
+}
+
+#Ref
+{
+	margin-top:0px;
+
+	width:400px;
+	height:190px;
+}
+
+#Ref h2
+{
+	padding-top:30px;	
+}
+
+#Ref p
+{
+	font-style:italic;
+	font-size:20px;
+	margin-top:-10px;
+	margin-left:90px;
+	text-align:left;
+}
+
+#image
+{
+	align: right;
+}
