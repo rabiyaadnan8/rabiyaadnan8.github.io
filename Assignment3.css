@@ -1,15 +1,33 @@
 #Title1 
 {
-    background-color: rosybrown;
     color: black;
     padding: 40px;
-    text-align: left;
-} 
+    text-align: center;
+	height: auto;
+	width: 1310px;
+}
+
+.bg
+{
+	height: 100%;
+	
+	background-size: cover;
+}
+
+.start
+{
+	background-image: url('12.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+}
 
 #EduTitle
 {
 	width:320px;
 	height:50px;
+	
+	font-size: 20px;
 	
 	float:center;
 	margin-top:25px;
@@ -18,19 +36,25 @@
 
 #EduBody
 {
-	width:auto;
-	height:300px;
-	background-color: cornsilk;
+	width: auto;
+	height: 255px;
+	padding-bottom: 65px;
 }
 
-.smallbox
+.structure
 {
-	width:435px;
-	height:50px;
-	float:left;	
-	border:2px solid peachpuff;
-	background-color: cornsilk;
+	height: 255px;
+	width: 400px;
+	
+	float:left;
+	
+	border:2px solid lightsteelblue;
+	
+	margin: 15px;
+	
+	background-color: lavender;
 }
+
 
 .smallbox h2
 {
@@ -39,42 +63,56 @@
 
 .bigbox
 {
-	border:2px solid peachpuff;
+	border:2px solid powderblue;
 	width:435px;
 	float:left;
-	height:190px;
-	background-color: cornsilk;
+	height:235px;
+	background-color: lavender;
+	margin-right:5px;
+}
+
+.Pbp
+{
+	background-image: url('15.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: midnightblue;
+}
+
+.profBP
+{
+	background-image: url('90.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: snow;
+}
+
+.perBP
+{
+	background-image: url('p2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: dimgray;
 }
 
 #IntTitle
 {
-	text-align:center;
-	padding-top:230px;
+	text-align: center;
+	padding-top: 230px;
+	font-size: 20px;
 }
 
 #whole
 {
-	background-color: cornsilk;
-}
-
-#whole2
-{
-	background-color: cornsilk;
+	background-color: lavender;
+	padding-top: 0px;
 }
 
 #x ul li
 {
-	padding-top:17px;	
+	padding-top: 17px;	
 }
 
-.structure
-{
-	height:290px;
-	width:435px;
-	
-	float:left;
-	border:2px solid peachpuff;
-}
 
 #Ref
 {
@@ -102,3 +140,87 @@
 {
 	align: right;
 }
+
+
+#end a 
+{
+	font-size:20px;
+	text-align: center;
+	float: right;
+	color: blue;
+	width: 160px;
+	border: 2px solid midnightblue;
+	border-radius: 15px;
+	background-color: lavender;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.ach
+{
+	font-size: 18px;
+}
+
+.transition 
+{
+    transform: scale(1.2);
+}
+
+
+#clock
+{
+	float: left;
+	border-radius: 15px;
+	width: 150px;
+	text-align: center;
+	font: 15px;
+	border: 2px solid steelblue;
+	background-color: powderblue;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	font-size: 30px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-right: 0px;
+}
+
+/*Reference of Contact Forms: w3Schools*/
+*
+{
+	box-sizing: border-box;
+}
+
+input[type=text], select, textarea 
+{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+    background-color: #45a049;
+}
+
+.container 
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/*Reference ends here*/

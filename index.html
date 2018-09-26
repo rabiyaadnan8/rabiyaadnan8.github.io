@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<head>
+	
+	<!-- Linking Style Sheet for icons -->
+	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- // -->
+	
+	<!-- Linking javascript -->
+	<script src = "jquery-3.3.1.min.js"> </script>
+	<!-- // -->
+	
+	<!-- Linking style sheet with html-->
+	<link rel = "stylesheet" type = "text/css" href = "Assignment3.css">
+	<!-- // -->
+	
+	<!-- Linking bootstrap -->
+	<!--
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	-->
+	
+	<meta name = "Viewport" content = "width=device-width, initial scale = 1.0">
+	
+	<title> Resume - Rabiya Adnan </title>
+	
+</head>
+
+
+	<div>
+		<body background = "2.jpg" class = "bg" onload="startTime()">
+	</div>
+	
+	<div id = "Title1">
+	
+		<div class = "start">
+		
+			<div class = "card">
+			
+				<div id = "clock">
+				
+					<script>
+						function startTime() 
+						{
+							var today = new Date();
+							var h = today.getHours();
+							var m = today.getMinutes();
+							var s = today.getSeconds();
+							m = checkTime(m);
+							s = checkTime(s);
+							document.getElementById('clock').innerHTML =
+							h + ":" + m + ":" + s;
+							var t = setTimeout(startTime, 500);
+						}
+						
+						function checkTime(i) 
+						{
+							if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+							return i;
+						}
+					
+					</script>	
+				</div>
+
+			
+			<h1 style = "color:Black" "font-size: 15px;"> Rabiya Adnan </h1>
+			
+				<b><em> Programmer, Bibliophile, Cinephile </b></em>
+				
+				<br></br>
+			
+				<em style = "color:black"> <i class="fa fa-envelope"></i> &nbsp 
+				<a href="mailto:l164356@lhr.nu.edu.pk" target="_blank" onclick="return confirm('Youre being redirected to gmail.com')"> l164356@lhr.nu.edu.pk </a>
+			
+				
+				
+				<br> <b> <i class="fa fa-phone"></i> &nbsp 0312-4153323 </em> </b> </br>
+
+				
+				<script>
+				
+					$("a").on("mouseover", function() {
+						$(this).css("color", "red");
+					});
+				
+				</script>
+				
+				
+			</div>
+			
+		</div>
+			
+	</div>
+	
+	
+	<div id = "EduTitle">
+		<h2 style = "color:blue;"> Education </h2>
+	</div>
+	
+	
+	<div id = "EduBody">
+	        <div id = "box1" class = "structure">
+                
+				
+					<script>
+					  
+					  $(document).ready(function(){
+						$('.structure').hover(function() {
+					$(this).addClass('transition');
+						// other code     
+					}, function() {
+						$(this).removeClass('transition');
+					});
+				  });
+						
+					  
+					</script>
+				
+				
+				<ul style="list-style-type:none">
+			      <li>
+					
+					<b> FAST - National University of Computer and Emerging Science </b>
+					<br><br><em> BS(CS) </br>
+					<br> (2016 - present) </em></br></br>
+				
+			        </li>
+                 </ul>
+            </div>
+			
+            <div id = "box2" class="structure">
+                
+				
+				<ul style="list-style-type:none">
+			        <li>
+				
+					<b> Beaconhouse A Level Gulberg Campus </b>
+					<br><br><em> A-Level </br>
+					<br> (2014 - 2016) </em></br></br>
+				
+			        </li>
+                </ul>
+            
+            </div>
+			
+            <div id="box3" class="structure">
+				
+				<ul style="list-style-type:none">
+			        <li>
+					
+					<b> Sacred Heart Convent School </b>
+					<br><br><em> O-Level </br>
+					<br> (2011 - 2014) </em></br></br>
+				
+			        </li>
+                </ul>
+            
+            </div>
+		
+	</div>
+	
+	
+		
+	<div id = "ProjectsBody" class = "bigbox">
+		<div class = "Pbp">
+		
+		<script>
+		
+			$('.Pbp').on('mouseenter', () => {
+				$('.Pbp').fadeOut();
+				}).on('mouseleave', () => {
+			$('.Pbp').fadeIn();
+			});
+		  
+			
+    
+			
+		</script>
+		
+			<ul>
+				<div id = "ProjectsTitle">
+					<h2 style="color:midnightblue;"> Projects </h2>
+				</div>
+				
+				<strong>
+				
+				<li>
+					Snakes, Ladders and Trapdoors (C++)
+					<br><em> Semester 1 </em></br>
+				</li>
+			
+				<li>
+					Paint Brush (C++)
+					<br><em> Semester 2 </em></br>
+				</li>
+			
+				<li>
+					Brick Breaker (Assembly Language)
+					<br><em> Semester 3 </em></br>
+				</li>
+			
+			
+				<li>
+					Online Ticketing System for Movies (SQL, asp.net)
+					<br><em> Semester 4 </em></br>
+				</li>
+				
+				</strong>
+				
+			</ul>
+        </div>
+	</div>
+
+	
+	
+	
+	<div id = "pSkillsBody" class = "bigbox">
+	
+		<div class = "profBP">
+		
+			<script>
+				
+				
+				$('.profBP').on('mouseenter', () => {
+					$('.profBP').fadeOut();
+					}).on('mouseleave', () => {
+				$('.profBP').fadeIn();
+				});
+			  
+				
+			</script>
+		
+			<ul style="list-style-type:circle">
+				
+				<div id = "pSkillsTitle">
+						<h2 style = "color:midnightblue;"> Professional Skills </h2>
+				</div>
+				
+				<strong>
+					<li>
+						C++
+					</li>
+					
+					<li>
+						SQL
+					</li>
+
+					<li>
+						Java
+					</li>
+
+					<li>
+						Assembly Language
+					</li>
+
+					<li>
+						HTML/CSS
+					</li>
+				
+					<li>
+						MS Word, MS Excel, MS PowerPoint, MS Access
+					</li>
+					
+				</strong>
+			</ul>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<div id = "perSkillsBody" class = "bigbox">
+	
+		<div class = "perBP">
+		
+			<script>
+			
+				
+				$('.perBP').on('mouseenter', () => {
+					$('.perBP').fadeOut();
+					}).on('mouseleave', () => {
+				$('.perBP').fadeIn();
+				});
+			  
+				
+			</script>
+			
+				<ul style = "list-style-type:circle">
+					<div id = "perSkillsTitle">
+							<h2 style = "color:midnightblue;"> Personal Skills </h2>
+					</div>
+				
+				<strong>
+					<li>
+						Hard-working
+					</li>
+					
+					<li>
+						Good Communication Skills
+					</li>
+
+					<li>
+						Adaptability
+					</li>
+
+					<li>
+						Punctuality
+					</li>
+
+					<li>
+						Analytical Skills
+					</li>
+				
+					<li>
+						Effective Time Management
+					</li>
+				
+				</ul>
+				
+				</strong>
+		</div>
+	</div>
+
+	
+	
+	
+	<div id = "IntBody" class = "ach">
+		<div id = "IntTitle">
+			<br> </br>
+			<h2 style = "color:blue;"> Achievements </h2>
+		</div>
+	
+		<b>
+	
+		<ul style = "color:midnightblue;">
+			<li>
+				Scored 4 A*s and 5 A's in O-Level
+				<br><em> 2014 </em></br>
+			</li>
+			
+			<li>
+				Internship at World Wide Fund (WWF)
+				<br><em> 2011 </em></br>
+			</li>
+
+			<li>
+				Internship at The Citizen's Foundation (TCF)
+				<br><em> 2014 </em></br>
+			</li>
+			
+			<li>
+				Internship at Shaukat Khanum Cancel Hospital
+				<br><em> 2015 </em></br>
+			</li>
+			
+			<li>
+				Internship at BRAMERZ
+				<br><em> 2017 & 2018 </em></br>
+			</li>
+			
+			<li>
+				Participated in ACM Coding Competition
+				<br><em> 2016 </em></br>
+			</li>
+			
+			<li>
+				Volunteer at SOFTEC '17
+				<br><em> 2017 </em></br>
+			</li>
+			
+			<li>
+				Deputy Head at SOFTEC '18
+				<br><em> 2018 </em></br>
+			</li>
+		
+		</b>
+		
+		</ul>
+	</div>
+	
+	<div id = "whole">
+	
+		<hr>
+	
+	<div id = "HobbiesTitle">
+		<h2 style = "color:navy;"> Interests </h2>
+	</div>
+
+	<div id = "x" class = "y">
+		<ul style = "list-style-type:none">
+			<li><i class="fa fa-music"></i> Music </li>
+			<li> <i class="fa fa-book"></i> Reading </li>
+			<li><i class="fa fa-video-camera"></i> Movies </li>
+			<li><i class="fa fa-plane"></i> Travelling </li>
+		</ul>
+	</div>
+	
+	
+	<br><br>
+	
+	<hr>
+	
+	</div>
+	
+	<div id = "Ref">
+		<h2> References </h2>
+		<p> Available on request </p>
+	</div>
+	
+	<hr>
+	
+	<br></br>
+	
+	<!-- Reference of Contact form: w3schools -->
+	
+	<h3>Contact Form</h3>
+
+		<div class = "container">
+		
+		  <form name = "ContactForm" action="/action_page.php" onsubmit = "return InputValidation()">
+			
+			<label for = "name"> Name </label>
+			
+			<input type = "text" id = "name" name = "name" placeholder = "Your name..">
+
+			<label for = "country"> Country </label>
+			
+			<select id = "country" name = "country">
+				<option value = "pakistan"> Pakistan </option>
+				<option value = "australia"> Australia </option>
+				<option value = "canada"> Canada </option>
+				<option value = "usa"> USA </option>
+				<option value = "uk"> UK </option>
+				<option value = "china"> China </option>
+				<option value = "turkey"> Turkey </option>
+			</select>
+
+			<label for = "subject"> Subject </label>
+			<textarea id = "subject" name = "subject" placeholder = "Write something.." style = "height:200px"> </textarea>
+
+			<input type = "submit" value = "Submit">
+		  </form>
+		</div>
+	
+	<!-- Reference ends here -->
+	
+	<hr>
+	
+	<br></br>
+		
+	<div id = "end">		
+		<a href = "#Title1"> Top </a>
+		
+		<script>
+		
+			$("a").on("mouseover", function() {
+				$(this).css("color", "red");
+			}).on("mouseout", function() {
+				  $(this).css("color", "blue");
+			});
+			
+		</script>
+		
+	</div>	
+
+	<br></br> <br></br> <br></br>
+	
+	<hr>
+	
+	
+	
+		<script>
+				function InputValidation()
+				{	
+					var x = document.forms["ContactForm"]["name"].value;
+					
+					if(x == "")
+					{
+						alert("Please enter your name");
+						return false;
+					}
+					
+					else if(!isNaN (x))
+					{
+						alert("Please enter a valid name");
+						return false;
+					}
+					
+					else
+					{
+						alert("Successfully submitted!");
+						return true;
+					}
+				}
+			
+		</script>
+	
+	
+	</div>
+	
+	
+	</body>
+	
+	</script>
+	
+</html>
